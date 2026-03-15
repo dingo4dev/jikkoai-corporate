@@ -579,6 +579,97 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Regional Coverage */}
+      <section id="覆蓋地區" className="py-24 bg-gradient-to-b from-zinc-950 to-black">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div 
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-4xl md:text-6xl font-bold mb-6">
+              覆蓋<span className="text-gradient">大中華</span>同<span className="text-gradient">東南亞</span>
+            </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              一個平台，支援4個主要市場
+              <br />
+              <span className="text-purple-400">當地法規、當地語言、當地支援</span>
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { 
+                region: "🇭🇰 Hong Kong", 
+                local: "香港",
+                flag: "🇭🇰",
+                features: ["強積金 MPF", "利得稅", "僱傭條例"],
+                status: "active",
+                color: "from-red-500/20 to-red-600/10"
+              },
+              { 
+                region: "🇸🇬 Singapore", 
+                local: "新加坡",
+                flag: "🇸🇬",
+                features: ["CPF公積金", "消費稅 GST", "僱傭法令"],
+                status: "active",
+                color: "from-blue-500/20 to-blue-600/10"
+              },
+              { 
+                region: "🇨🇳 China", 
+                local: "中国",
+                flag: "🇨🇳",
+                features: ["五險一金", "增值稅 VAT", "勞動合同法"],
+                status: "coming",
+                color: "from-yellow-500/20 to-yellow-600/10"
+              },
+              { 
+                region: "🇹🇼 Taiwan", 
+                local: "台湾",
+                flag: "🇹🇼",
+                features: ["勞工保險", "所得稅", "勞動基準法"],
+                status: "coming",
+                color: "from-green-500/20 to-green-600/10"
+              },
+            ].map((market, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.1 }}
+                viewport={{ once: true }}
+                className={`relative p-6 rounded-2xl bg-gradient-to-br ${market.color} border border-white/10 hover:border-white/20 transition-all`}
+              >
+                <div className="text-4xl mb-3">{market.flag}</div>
+                <h3 className="text-xl font-bold mb-1">{market.region}</h3>
+                <p className="text-gray-400 text-sm mb-4">{market.local}</p>
+                
+                <div className="space-y-2">
+                  {market.features.map((feature, j) => (
+                    <div key={j} className="flex items-center gap-2 text-sm text-gray-300">
+                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
+                      {feature}
+                    </div>
+                  ))}
+                </div>
+
+                {market.status === "coming" && (
+                  <div className="absolute top-4 right-4 px-2 py-1 bg-yellow-500/20 text-yellow-400 text-xs rounded-full">
+                    即將推出
+                  </div>
+                )}
+                {market.status === "active" && (
+                  <div className="absolute top-4 right-4 px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded-full">
+                    現已支持
+                  </div>
+                )}
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Pricing */}
       <section id="定價" className="py-24 bg-gradient-to-b from-black to-zinc-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
