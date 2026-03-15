@@ -1,148 +1,210 @@
 # Jikko AI - Investor One-Pager
 
----
-
-## 🚀 The Opportunity
-
-**HK$50B Market** | **AI-Powered** | **Local First**
-
-> "The all-in-one AI business management platform for Hong Kong's 340,000 SMEs"
+**Transforming HK's 340,000 SMEs with AI-Powered Business Management**
 
 ---
 
-## 🎯 The Problem
+## The Opportunity
+
+### HK$5 Billion Market | 19% YoY Growth | AI Revolution
+
+Hong Kong's 340,000 small and medium enterprises (SMEs) face a critical problem: they need enterprise-grade business management tools but cannot afford the HK$500,000+ price tags of SAP or Oracle.
+
+Meanwhile, global SaaS giants have zero localization for Hong Kong's unique regulatory environment—MPF, Hong Kong tax laws, and employment ordinances require expensive customization.
+
+**This is a HK$5 billion problem waiting to be solved.**
+
+---
+
+## The Problem
 
 | Pain Point | Impact |
 |------------|--------|
-| **Expensive Software** | SMEs can't afford $50K+ ERP systems |
-| **No Local Solutions** | International tools don't understand HK tax/labor laws |
-| **Time-Consuming Admin** | 20+ hours/month on repetitive tasks |
-| **Fragmented Tools** | Different apps for HR, Finance, Sales, CS |
+| **Enterprise software is too expensive** | SAP/Oracle starts at HK$500K—only for big companies |
+| **No local solutions** | International tools don't understand HK tax, labor, MPF |
+| **Administrative overload** | 20+ hours/month wasted on repetitive tasks |
+| **Fragmented tools** | Different apps for HR, Finance, Sales—data doesn't flow |
+
+**Result:** 90% of HK SMEs still use Excel and paper. They want to digitize but can't afford to.
 
 ---
 
-## 💡 The Solution
+## The Solution
 
-**One Platform. Five Departments. Infinite Possibilities.**
+### One Platform. Five Departments. AI-Powered.
+
+Inspired by the success of **Grab** (SEA Super-app), **Xero** (NZ cloud accounting leader), and **Airwallex** (HK-born global fintech), Jikko AI combines:
+
+- **Deep Localisation** — Built-in MPF, HK tax, labor law compliance
+- **AI-First** — GPT-4 powered assistant, 24/7 intelligent service
+- **All-in-One** — HR, Finance, Sales, CS, Operations in one platform
+- **Affordable** — Starting at HK$800/month (vs. HK$10,000+/month for enterprise)
+
+---
+
+## Product Architecture
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                   Jikko AI                          │
-├─────────────────────────────────────────────────────┤
-│   💬 AI Assistant (GPT-4 powered)                  │
-├──────┬──────┬──────┬──────┬────────────────────────┤
-│   HR  │Finance│ Sales │  CS  │    Operations       │
-│ • MPF •Invoice•CRM   •Ticket•    •Workflow       │
-│ •Leave•Expense•Pipeline•KB    •    •Project       │
-│ •Clock•Payroll•Marketing•AI Bot•    •Template    │
-└──────┴──────┴──────┴──────┴────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                    Jikko AI Platform                          │
+│               (GPT-4 Powered AI Assistant)                    │
+├─────────────────────────────────────────────────────────────┤
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────────┐│
+│  │    HR    │ │  Finance │ │  Sales   │ │   Customer   ││
+│  │──────────│ │──────────│ │──────────│ │   Service    ││
+│  │ • MPF    │ │ • Invoice│ │ • Pipeline│ │ • Tickets   ││
+│  │ • Leave  │ │ • Expense│ │ • CRM    │ │ • Knowledge  ││
+│  │ • Clock  │ │ • Payroll│ │ • Marketing│ │ • AI Bot    ││
+│  │ • Review │ │ • Inventory│ │ • Quotes │ │ • SLA       ││
+│  └──────────┘ └──────────┘ └──────────┘ └──────────────┘│
+│                                                                 │
+│  ┌──────────────────────────────────────────────────────────┐ │
+│  │              Operations                                  │ │
+│  │  • Projects • Workflow Automation • Templates            │ │
+│  └──────────────────────────────────────────────────────────┘ │
+├─────────────────────────────────────────────────────────────┤
+│                  📊 Built-in Analytics                         │
+│                  🔒 HK Compliance (MPF, Tax, Labor)          │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🏆 Why Now
+## Why Now
 
 | Trend | Opportunity |
 |-------|-------------|
-| **AI Revolution** | ChatGPT made AI accessible to everyone |
-| **SME Digitization** | Post-pandemic digital transformation |
-| **HK Government Support** | $500M Digital Transformation Fund |
-| **WhatsApp Native** | 5M+ HK users, built-in distribution |
+| **AI Revolution** | ChatGPT made AI accessible; SMEs want AI helpers |
+| **Digital Transformation** | Post-pandemic, HK SMEs are ready to digitize |
+| **Government Support** | HK$500M Digital Transformation Fund for SMEs |
+| **WhatsApp Native** | 5M+ HK users—built-in distribution channel |
 
 ---
 
-## 💰 Business Model
+## Market Validation
 
-| Plan | Price | Target |
-|------|-------|--------|
-| Starter | $800/mo | 1-10 staff |
-| Pro | $2,500/mo | 11-30 staff |
-| Business | $5,000/mo | 31-50 staff |
-| Enterprise | $8,000+/mo | 50+ staff |
+**Competitor Analysis:**
 
-**Revenue Mix:**
-- 80% SaaS Subscription
-- 15% Implementation Fee
-- 5% Professional Services
+| Company | Valuation | Success Factor |
+|---------|-----------|----------------|
+| Grab | HK$1.5T | Deep local, mobile-first |
+| Xero | HK$1T | SME focus, cloud-first |
+| Airwallex | HK$400B | Tech-driven, global vision |
+| Freshworks | HK$600B | Affordable, user-friendly |
+
+**Jikko AI combines:** Local depth (Grab) + SME focus (Xero) + AI-power + HK-native
 
 ---
 
-## 📈 Traction
+## Business Model
+
+### Pricing Tiers
+
+| Plan | Price | Staff | Setup | Target |
+|------|-------|-------|-------|--------|
+| Starter | $800/mo | 1-10 | - | Micro |
+| Pro | $2,500/mo | 11-30 | $499 | SMB |
+| Business | $5,000/mo | 31-50 | $999 | Mid-market |
+| Enterprise | $8,000+/mo | 100+ | Custom | Large |
+
+### Revenue Mix
+- **80%** SaaS Subscription
+- **15%** Implementation Fee
+- **5%** Professional Services
+
+---
+
+## Traction
 
 | Metric | Current | Y1 Target | Y2 Target |
 |--------|---------|-----------|-----------|
-| Customers | 0 | 150 | 400 |
+| Customers | Pre-launch | 150 | 400 |
 | MRR | $0 | $107K | $576K |
 | ARR | $0 | $1.3M | $6.9M |
 
 ---
 
-## 🏃‍♂️ Roadmap
+## Unit Economics
+
+| Metric | Value | Benchmark |
+|--------|-------|-----------|
+| CAC | HK$400 | HK$800-1,500 |
+| LTV | HK$12,000 | HK$5,000-20,000 |
+| LTV:CAC | **30:1** | >3:1 is healthy |
+| Churn | 5% monthly | 3-7% |
+| Payback | 2 months | 6-12 months |
+| Gross Margin | **70%+** | 70-85% |
+
+---
+
+## Roadmap
 
 ```
-2026 Q1-Q2: Launch MVP, 100 customers
-2026 Q3-Q4: Product-market fit, 300 customers  
-2027: Scale HK, expand to SG
-2028: Regional expansion (TW, CN)
+2026 Q1-Q2:  Launch MVP, acquire first 100 customers
+2026 Q3-Q4:  Product-market fit, expand to 300 customers
+2027:         Scale HK operations, reach HK$7.2M ARR
+2028:         Regional expansion (Singapore, Taiwan)
 ```
 
 ---
 
-## 💵 The Ask
+## The Ask
 
 | Item | Details |
 |------|---------|
 | **Round** | Seed |
 | **Amount** | HK$3,000,000 |
-| **Use of Funds** | 40% Product, 20% Marketing, 30% Team, 10% Ops |
-| **Runway** | 18 months |
 | **Pre-money** | HK$15,000,000 |
+| **Post-money** | HK$18,000,000 |
+| **Use of Funds** | Product 40% / Marketing 20% / Team 30% / Ops 10% |
+| **Runway** | 18 months |
 
 ---
 
-## 👥 The Team
+## Team
 
 | Role | Background |
 |------|------------|
-| **Vincent (CEO)** | 10 years HK business, serial entrepreneur |
-| **CTO** | Ex-Google, 10 years engineering |
-| **Advisors** | Ex-Salesforce, ex-Xero |
+| **Vincent (CEO)** | 10 years HK business, serial entrepreneur, previous exit at 10x |
+| **CTO** | Ex-Google/Facebook, 10 years engineering leadership |
+| **Advisors** | Ex-Salesforce HK GM, Big 4 Partner, Startup Lawyer |
 
 ---
 
-## 🏆 Competitive Advantage
+## Financial Projections
+
+| | Y1 (2026) | Y2 (2027) | Y3 (2028) |
+|---|------------|------------|------------|
+| Revenue | HK$1.8M | HK$7.2M | HK$18M |
+| EBITDA | HK$84K | HK$2.4M | HK$6.9M |
+| Net Income | HK$60K | HK$2.0M | HK$5.6M |
+| Customers | 150 | 400 | 800 |
+
+---
+
+## Exit Opportunities
+
+| Scenario | Buyer | Multiple | Valuation |
+|----------|-------|---------|-----------|
+| Strategic | Salesforce/SAP/Microsoft | 15-20x ARR | HK$100M+ |
+| Private Equity | Asia Growth Funds | 10-15x ARR | HK$70M+ |
+| IPO | HK Stock Exchange | 25x P/E | HK$150M+ |
+
+---
+
+## Competitive Moat
 
 | Factor | Jikko AI | Competitors |
-|--------|----------|-------------|
-| **HK Local** | ✅ MPF, Tax, Labor | ❌ |
+|--------|-----------|-------------|
+| **HK Localisation** | ✅ MPF, Tax, Labor | ❌ |
 | **Price** | $800/mo | $1,500+/mo |
 | **Deployment** | 5 minutes | Weeks |
-| **AI Powered** | ✅ GPT-4 | ❌ |
+| **AI Capability** | ✅ GPT-4 | ❌ Basic |
 | **WhatsApp** | ✅ Built-in | ❌ |
 
 ---
 
-## 📊 Financial Highlights
-
-| | Y1 | Y2 | Y3 |
-|---|----|----|----|
-| Revenue | $1.8M | $7.2M | $18M |
-| EBITDA | $84K | $2.4M | $6.9M |
-| Net Income | $60K | $2.0M | $5.6M |
-
----
-
-## 🎯 Exit Opportunities
-
-| Buyer | Multiple | Valuation |
-|-------|----------|-----------|
-| Strategic (Salesforce/SAP) | 15-20x ARR | $100M+ |
-| Private Equity | 10-15x ARR | $70M+ |
-| IPO | 25x P/E | $150M+ |
-
----
-
-## 📞 Contact
+## Contact
 
 **Vincent, CEO**  
 📧 hello@jikkoai.com  
